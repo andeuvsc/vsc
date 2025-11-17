@@ -1,0 +1,2 @@
+Die von den gängigen Browsern unterstützten Webtechnologien findet man auf caniuse.com
+HTML Living Standard ==> die sich laufend ändernde HTML-Spezifikation der Arbeitsgruppe WHATWG
