@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
@@ -31,7 +31,7 @@
         let ufos = [];
         let shots = [];
 
-        document.onkeydown = function(e) {
+        document.onkeydown = function (e) {
             if (e.keyCode == 32) { // Leertaste gedrückt
                 KEY_SPACE = true;
             }
@@ -46,7 +46,7 @@
         }
 
 
-        document.onkeyup = function(e) {
+        document.onkeyup = function (e) {
             if (e.keyCode == 32) { // Leertaste losgelassen
                 KEY_SPACE = false;
             }
@@ -73,7 +73,7 @@
         }
 
         function checkForCollion() {
-            ufos.forEach(function(ufo) {
+            ufos.forEach(function (ufo) {
 
                 // Kontrollieren, ob UFO mit Rakete kollidiert
                 if (rocket.x + rocket.width > ufo.x &&
@@ -87,7 +87,7 @@
                 }
 
                 // Deine Hausaufgabe
-                shots.forEach(function(shot) {
+                shots.forEach(function (shot) {
                     // Kontrollieren, ob Laser mit Rakete kollidiert
                     if (shot.x + shot.width > ufo.x &&
                         shot.y + shot.height > ufo.y &&
@@ -147,14 +147,14 @@
                 rocket.y += 5;
             }
 
-            ufos.forEach(function(ufo) {
+            ufos.forEach(function (ufo) {
                 if (!ufo.hit) {
                     ufo.x -= 5;
                 }
             });
 
 
-            shots.forEach(function(shot) {
+            shots.forEach(function (shot) {
                 shot.x += 15;
             });
         }
@@ -169,12 +169,12 @@
             ctx.drawImage(backgroundImage, 0, 0);
             ctx.drawImage(rocket.img, rocket.x, rocket.y, rocket.width, rocket.height);
 
-            ufos.forEach(function(ufo) {
+            ufos.forEach(function (ufo) {
                 ctx.drawImage(ufo.img, ufo.x, ufo.y, ufo.width, ufo.height);
             });
 
 
-            shots.forEach(function(shot) {
+            shots.forEach(function (shot) {
                 ctx.drawImage(shot.img, shot.x, shot.y, shot.width, shot.height);
             });
 
