@@ -1,0 +1,20 @@
+#card {
+    border: 1px solid rgb(15, 15, 15);
+    padding: 12px;
+    width: 300px;
+    text-align: left;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+#fullName {
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(148, 79, 33);
+}
