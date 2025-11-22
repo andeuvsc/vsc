@@ -1,0 +1,21 @@
+body {
+    background-color:antiquewhite;
+    margin: 0;
+    height: 400;
+    width: 200px;
+    overflow: hidden;
+}
+
+#counterLayout {
+    background-color: black;
+    position: relative;
+    height: inherit;
+    width: 120px;
+    top: 40px;
+    padding: 6px;
+    margin: auto;
+    color: white;
+    border: 6px solid rgba(255, 255, 255, 0.644);
+    border-radius: 5px;
+    text-align: center;
+}
