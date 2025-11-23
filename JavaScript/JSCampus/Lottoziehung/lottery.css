@@ -1,12 +1,13 @@
 body {
-    background-color: antiquewhite;
+    background-color: cornsilk;
 }
 
 #kasten {
     width: 470px;
-    height: 260px;
+    height: 285px;
     background-color: black;
     margin: auto;
+    
 }
 
 .center {
@@ -32,11 +33,16 @@ body {
     width: 50px;
     height: 50px;
     border: 2px solid #4caf50;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #4caf50;
 }
 
 label {
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-top: 15px;
+    margin-left: 76px;
     margin-right: 15px;
     color: bisque;
 }
@@ -44,8 +50,8 @@ label {
 #lotto-tile-extra {
     margin-top: 10px;
     display: flex;
-    color: white;
-    display: flex;
+    font-size: 24px;
+    font-weight: bolder;
     
 }
 
@@ -55,20 +61,32 @@ label {
     width: 50px;
     height: 50px;
     border: 2px solid #4caf50;
+    border-radius: 50%;
     justify-content: center;
     align-items: center;
+    background-color: #4caf50;
 }
 
 #start-button {
-    padding-bottom: 24px;
-    margin-top: 25px;
-    margin-left: 140px;
-    width: 150px;
-    height: 30px;
-    background-color: chocolate;
-    color: black;
+    display: block;
+    margin: 15px auto;
+    padding-bottom: 50px;
+    width: 175px;
+    height: 29px;
+    background-color: rgb(241, 241, 227);
+    color: #4caf50;
     justify-content: center;
     align-items: center;
-    border: 2px solid #4caf50;
+    border: 4px solid #4caf50;
     border-radius: 10px;
+    font-size: 29px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
 }
+
+#start-button:hover  {
+    color: rgb(241, 241, 227);
+    background-color:#4caf50;
+}
+
