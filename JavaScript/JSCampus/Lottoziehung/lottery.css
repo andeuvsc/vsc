@@ -4,7 +4,7 @@ body {
 
 #kasten {
     width: 470px;
-    height: 285px;
+    height: 385px;
     background-color: black;
     margin: auto;
     
@@ -48,7 +48,7 @@ label {
 }
 
 #lotto-tile-extra {
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex;
     font-size: 24px;
     font-weight: bolder;
@@ -68,15 +68,15 @@ label {
 }
 
 #start-button {
-    display: block;
-    margin: 15px auto;
+    display: flex;
+    margin: 45px auto;
     padding-bottom: 50px;
     width: 175px;
     height: 29px;
     background-color: rgb(241, 241, 227);
     color: #4caf50;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     border: 4px solid #4caf50;
     border-radius: 10px;
     font-size: 29px;
