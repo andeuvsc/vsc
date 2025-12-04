@@ -16,6 +16,7 @@ footer {
 
 .container{
     max-width: 600px;
+    max-height: fit-content;
     margin: 0 auto ;
     background-color: black;
     color: white;
@@ -45,7 +46,18 @@ button {
     color: white;
 }
 
-#addItemButton:hover {
+#deleteItemButton {
+    background-color: red;
+    color: white;
+}
+
+#deleteItemButton i{
+    font-size: 18px;
+    padding-bottom: 1px;
+}
+
+#addItemButton:hover,
+#deleteItemButton:hover {
     background-color: white;
     color: black;
 }
@@ -68,4 +80,12 @@ button {
     margin-left: 0;
     width: 250px;
     height: 25px;
+}
+
+ul {
+    background-color: cadetblue;
+    list-style: none;
+    padding: 12px;
+    margin: 15px auto;
+    width: 270px;
 }
