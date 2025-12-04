@@ -1,9 +1,10 @@
 body {
     background-color: aqua;
+    font-family: sans-serif;
 }
 
 footer {
-    max-width: 500px;
+    max-width: 641px;
     margin: auto;
     background-color: bisque;
     color: black;
@@ -14,11 +15,10 @@ footer {
 }
 
 .container{
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto ;
     background-color: black;
     color: white;
-    font-family: sans-serif;
     padding: 20px;
 }
 
@@ -28,12 +28,44 @@ h1 {
 }
 
 button {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 0;
+    cursor: pointer;
+    text-transform: capitalize;
 
 }
 
 #addItemButton{
     background-color: green;
     color: white;
-    margin: 10px;
 }
 
+#addItemButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle; /* Vertikal in der Mitte*/
+}
+
+#addItemLayout {
+   display: flex; 
+   justify-content: center; /* Waagerecht in der Mitte*/
+}
+
+#addItemInput {
+    display: inline-block;  /* Inhalt kann länger sein*/
+    padding: 0 0 0 5px; /* Inhaltsabstand 5px zum linken Rand*/
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-left: 0;
+    width: 250px;
+    height: 25px;
+}
