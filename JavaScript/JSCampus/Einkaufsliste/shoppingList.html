@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="shopping.png" type="image/x-icon" />
     <link rel="stylesheet" href="shoppingList.css">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=add,palette,settings&display=block"  rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=add,delete,palette,settings&display=block"  rel="stylesheet" />
     <title>Einkaufsliste</title>
 </head>
 <body>
@@ -20,15 +20,16 @@
             </button>
         </section>
         <section Liste>
-            <ul id="itemList">
+            <ol id="itemList">
             <!-- Einträge werden hier hinzugefügt -->
             
-            </ul>
+            </ol>
         </section>
      
     </article>
     <footer>
-        <p>2025</p>
+        <p id="datum"></p>
     </footer> 
+    <script src="shoppingList.js"></script>
 </body>
 </html>

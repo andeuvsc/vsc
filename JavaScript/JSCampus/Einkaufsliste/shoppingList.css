@@ -82,10 +82,28 @@ button {
     height: 25px;
 }
 
-ul {
-    background-color: cadetblue;
-    list-style: none;
-    padding: 12px;
-    margin: 15px auto;
-    width: 270px;
+ol {
+    background-color: rgb(162, 214, 238);
+    border-radius: 4px;
+    list-style: decimal-leading-zero;
+    padding: 4px;
+    margin: 25px auto;
+    width: 282px;
+}
+
+li {
+    color: black;
+   display: flex; 
+   align-items: center;
+   margin-bottom: 10px;
+   padding: 0 0 0 5px;
+   border-radius: 4px;
+}
+
+li:hover {
+    background-color: #bed179;
+}
+
+li button {
+    margin-left: auto;
 }
